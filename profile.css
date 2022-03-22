@@ -1,0 +1,124 @@
+
+nav{
+    margin-top: -760px;
+    margin-left: 18px;
+}
+.dropdownmenu ul, .dropdownmenu li {
+	margin: 0;
+	padding: 0;
+    
+}
+.dropdownmenu ul{
+    list-style: none;
+    width: 100%;
+    
+}
+.dropdownmenu li {
+	float: left;
+	position: relative;
+	width:auto;
+    
+}
+.dropdownmenu a{
+    background: #a6fdfd;
+    color: black;
+    display: block;
+    font: 18px Lucida Console;
+    padding: 10px 25px;
+    text-align: center;
+    transition: all .25s ease;
+    border:5px solid black
+}
+.dropdownmenu li:hover a{
+    background: #a6fdfd;
+    
+}
+li:hover ul#submenu{
+    opacity: 1;
+    top: 40px;
+    visibility: visible;
+    
+}
+#submenu a:hover{
+    background:rgb(255, 255, 255);
+}
+
+#submenu a{
+    background-color: #a6fdfd;
+}
+#submenu{
+    left:0;
+    opacity:0;
+    position: absolute;
+    top: 35px;
+    visibility: hidden;
+    z-index: 1;
+}
+#catgal{
+    font-size: 75px;
+    text-align: center;
+    font-family: Javanese Text;
+    color: black;
+    position: relative;
+    margin-top: -1px;
+    border:5px solid black;
+    padding-top: 25px;
+}
+
+#profile{
+    text-align: center;
+    font-family: Javanese Text;
+}
+#box{
+    border: 5px solid black;
+    height: 500px;
+    width: 800px;
+    margin-left: 545px;
+}
+#add{
+    margin-left:1119px;
+   
+}
+.p-attributes{
+    font-family:Javanese Text;
+    font-size: 27px;
+    position:relative;
+    top: -200px;
+    left: 45px;
+}
+#profilebutton1{
+    color: black;
+    background-color: #a6fdfd;
+    position: relative;
+    bottom:180px;
+    left:830px;
+    font-size: 30px;
+}
+#profilebutton2{
+    position: relative;
+    left: 1040px;
+    bottom: 250px;
+    color: black;
+    background-color: #a6fdfd;
+}
+#humanimg{
+    width: 300px;
+    position: relative;
+    left:410px;
+    bottom: -30px;
+    border:5px solid rgb(0, 0, 0);
+    border-radius:50%;
+}
+html{
+    background-color: #008B8B;
+}
+input{
+    background-color: #a6fdfd;
+    color: black;
+}
+#copyright{
+    position: relative;
+    top: 750px;
+    margin-left: 1685px;
+    font-family: javanese text;
+}

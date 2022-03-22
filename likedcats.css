@@ -1,0 +1,150 @@
+nav{
+    margin-top: -115px;
+    margin-left: 20px;
+}
+.dropdownmenu ul, .dropdownmenu li {
+    margin: 0;
+    padding: 0;
+    
+}
+.dropdownmenu ul{
+    list-style: none;
+    width: 100%;
+    
+}
+.dropdownmenu li {
+    float: left;
+    position: relative;
+    width:auto;
+    
+}
+.dropdownmenu a{
+    background: #a6fdfd;
+    color: black;
+    display: block;
+    font: 18px Lucida Console;
+    padding: 10px 25px;
+    text-align: center;
+    transition: all .25s ease;
+    border:5px solid black
+}
+.dropdownmenu li:hover a{
+    background: #a6fdfd;
+    
+}
+li:hover ul#submenu{
+    opacity: 1;
+    top: 40px;
+    visibility: visible;
+    
+}
+#submenu a:hover{
+    background:rgb(255, 255, 255);
+}
+
+#submenu a{
+    background-color: #a6fdfd;
+}
+#submenu{
+    left:0;
+    opacity:0;
+    position: absolute;
+    top: 35px;
+    visibility: hidden;
+    z-index: 1;
+}
+h1{
+    font-size: 75px;
+    text-align: center;
+    font-family: Javanese Text;
+    color: black;
+    position: relative;
+    margin-top: -1px;
+    border:5px solid black;
+    padding-top: 25px;
+}
+
+html{
+    background-color: #008B8B;
+}
+
+#copyright{
+margin-left: 1650px;
+margin-top: 250px;
+}
+
+#box{
+    border:5px solid black;
+    width:800px;
+    height: 500px;
+    position: relative;
+    top: 150px;
+    left:530px;
+}
+.tik{
+    position: relative;
+    left: 300px;
+}
+.intik{
+    position: relative;
+    left: 300px;
+}
+#searchbar{
+    font-size: 20px;
+    position: relative;
+    right: 50px;
+}
+#catbox{
+    border:5px solid black;
+    width:500px;
+    height: 300px;
+    position: relative;
+    left:100px;
+}
+#tag
+{
+    position: relative;
+    left: 400px;
+    top: 100px;
+}
+#minibox{
+    border: 5px solid black;
+    width: 330px;
+    height:220px;
+    position: relative;
+    left:15px;
+    bottom: 210px;
+    background-color: white;
+    font-size: 100px;
+    text-align: center;
+}
+.bottombox{
+    position: relative;
+    top:143px;
+    font-size: 60px;
+    left:160px;
+}
+#tag{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#upper
+{
+    margin-left: 680px;
+    position:relative;
+    bottom: 330px;
+    font-size: 120px;
+}
+#down{
+    font-size: 120px;
+    position: relative;
+    left: 680px;
+    bottom: 230px;
+}
+#kattmöte{
+position: relative;
+bottom: 155px;
+left: 20px;
+border:1px outset black;
+font-family: Arial, Helvetica, sans-serif;
+}
